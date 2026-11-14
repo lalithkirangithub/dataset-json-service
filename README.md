@@ -10,6 +10,19 @@ A Spring Boot REST service that stores schema-less JSON records in named dataset
 - **Group By:** https://dataset-json-service.onrender.com/api/dataset/employees/query?groupBy=department
 - **Sort By:** https://dataset-json-service.onrender.com/api/dataset/employees/query?sortBy=age&order=asc
 
+
+## API Documentation (Swagger UI)
+
+- **Swagger UI (live):** https://dataset-json-service.onrender.com/swagger-ui/index.html
+- **OpenAPI JSON (live):** https://dataset-json-service.onrender.com/v3/api-docs
+- **Swagger UI (local):** http://localhost:8080/swagger-ui/index.html
+
+### How to use Swagger UI
+1. Open the Swagger UI link in a browser.
+2. Click an endpoint, then **Try it out**.
+3. Fill in the parameters (for example `datasetName` = `employees`), then click **Execute**.
+4. The response code and body appear below.
+
 > Hosted on a free plan, so the first request after a period of inactivity can take up to a minute to wake the server.
 
 ## Tech stack
